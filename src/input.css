@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../dist/font/Manrope-Light.ttf");
+  };
+  @font-face {
+    font-family: "Mark Pro";
+    src: url("../dist/font/Mark Pro.ttf");
+  };
