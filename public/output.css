@@ -664,6 +664,10 @@ video {
   max-width: 1152px;
 }
 
+.max-w-\[screen-xl\] {
+  max-width: screen-xl;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -953,6 +957,13 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  }
 }
 
 @media (min-width: 640px) {
@@ -1415,6 +1426,10 @@ video {
 
   .xl\:max-w-\[462px\] {
     max-width: 462px;
+  }
+
+  .xl\:max-w-\[1152px\] {
+    max-width: 1152px;
   }
 
   .xl\:items-end {
