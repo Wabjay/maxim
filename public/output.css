@@ -640,6 +640,30 @@ video {
   max-width: 927px;
 }
 
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[11\] {
+  max-width: 11;
+}
+
+.max-w-\[1152\] {
+  max-width: 1152;
+}
+
+.max-w-\[1152o\] {
+  max-width: 1152o;
+}
+
+.max-w-\[1152p\] {
+  max-width: 1152p;
+}
+
+.max-w-\[1152px\] {
+  max-width: 1152px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -804,6 +828,10 @@ video {
   font-family: MarkPro Black, sans-serif;
 }
 
+.font-ManropeLight {
+  font-family: Manrope Light;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -897,6 +925,12 @@ video {
   font-family: "Manrope";
 
   src: url("../public/font/Manrope-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Manrope Light";
+
+  src: url("../public/font/Manrope-Medium.ttf");
 }
 
 @font-face {
@@ -1147,8 +1181,8 @@ video {
     max-width: 1440px;
   }
 
-  .lg\:max-w-\[500px\] {
-    max-width: 500px;
+  .lg\:max-w-\[450px\] {
+    max-width: 450px;
   }
 
   .lg\:max-w-\[701px\] {
@@ -1189,6 +1223,10 @@ video {
 
   .lg\:p-10 {
     padding: 2.5rem;
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
   }
 
   .lg\:px-8 {
