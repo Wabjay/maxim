@@ -1,8 +1,8 @@
 {
-  "name": "maxima",
+  "name": "maxim",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o public/output.css",
     "start": "tailwindcss -i ./src/input.css -o public/output.css --watch"
