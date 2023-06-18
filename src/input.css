@@ -5,18 +5,29 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Manrope";
-    src: url("../public/font/Manrope-ExtraLight.ttf");
+    font-family: "Inter-Regular";
+    src: url("../public/font/Inter-Regular.ttf");
   };
   @font-face {
-    font-family: "Manrope Light";
-    src: url("../public/font/Manrope-Medium.ttf");
+    font-family: "Inter-Medium";
+    src: url("../public/font/Inter-Medium.ttf");
   };
   @font-face {
-    font-family: "Mark Pro";
-    src: url("../public/font/MarkPro.otf");
+    font-family: "Inter-SemiBold";
+    src: url("../public/font/Inter-SemiBold.ttf");
   };
   @font-face {
-    font-family: "MarkPro Black";
-    src: url("../public/font/MarkPro-Black.otf");
+    font-family: "Inter-Bold";
+    src: url("../public/font/Inter-Bold.ttf");
   };
+
+  html {
+    scroll-behavior: smooth;
+  }
+  .line{
+    margin-left: -15%;
+  }
+
+  @media (max-width: 576px) {
+  
+  }
