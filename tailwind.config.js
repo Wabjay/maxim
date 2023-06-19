@@ -11,6 +11,8 @@ module.exports = {
       },
       screens: {
         'xxl': {'min': '1440px'},
+        "ms": {'min': '576px', 'max': '1023px'},
+        "xsm": {'max': '566px'}
       },
       animation: {
         'animate-bounce': 'bounce 3s infinite',
