@@ -1267,7 +1267,7 @@ html {
 }
 
 .bg-footer-position {
-  background-position: bottom -30rem left 33rem;
+  background-position: bottom -28rem left 25rem;
 }
 
 .bg-no-repeat {
@@ -1408,10 +1408,6 @@ html {
   font-weight: 500;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .leading-\[22px\] {
   line-height: 22px;
 }
@@ -1448,20 +1444,16 @@ html {
   line-height: 33.89px;
 }
 
+.leading-\[24px\] {
+  line-height: 24px;
+}
+
 .leading-\[12\.1px\] {
   line-height: 12.1px;
 }
 
 .leading-\[19\.36px\] {
   line-height: 19.36px;
-}
-
-.leading-\[24\] {
-  line-height: 24;
-}
-
-.leading-\[24px\] {
-  line-height: 24px;
 }
 
 .tracking-\[-2\.5px\] {
@@ -1579,11 +1571,6 @@ img.rotate_globe {
   100% {
     transform: rotate(360deg);
   }
-}
-
-.hover\:bg-\[\#031D21\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(3 29 33 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#002D7C\]:hover {
@@ -1815,6 +1802,14 @@ img.rotate_globe {
     max-width: 282px;
   }
 
+  .lg\:max-w-\[1px\] {
+    max-width: 1px;
+  }
+
+  .lg\:max-w-\[1440px\] {
+    max-width: 1440px;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1933,10 +1928,6 @@ img.rotate_globe {
 
   .lg\:text-\[20px\] {
     font-size: 20px;
-  }
-
-  .lg\:text-\[24px\] {
-    font-size: 24px;
   }
 
   .lg\:text-\[14px\] {
@@ -2095,6 +2086,10 @@ img.rotate_globe {
 
   .xl\:whitespace-nowrap {
     white-space: nowrap;
+  }
+
+  .xl\:bg-footer-bigger {
+    background-position: bottom -25rem left 33rem;
   }
 
   .xl\:object-cover {
