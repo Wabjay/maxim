@@ -2490,6 +2490,10 @@ img.rotate_globe {
     font-size: 20px;
   }
 
+  .xsm\:text-\[12px\] {
+    font-size: 12px;
+  }
+
   .xsm\:leading-\[12\.1px\] {
     line-height: 12.1px;
   }
