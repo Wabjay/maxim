@@ -19,14 +19,14 @@ module.exports = {
         'animate-bounce': 'bounce 3s infinite',
       },
       backgroundImage: {
-        'footer-back': "url('./images/footer_bg.png')",
+        'footer-back': "url('./images/footer_bg.svg')",
         'telecom-bg': "url('./public/images/Telecom.png')",
         'insurance-bg': "url('./public/images/Insurance.png')",
         'commercial-bg': "url('./public/images/Commercial.png')",
         'financial-bg': "url('./public/images/Financial.png')",
       },
       backgroundPosition: {
-        "footer-position": 'bottom -3rem left 10rem'
+        "footer-position": 'bottom -30rem left 33rem'
       },
     },
   },
