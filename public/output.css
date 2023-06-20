@@ -913,6 +913,14 @@ html {
   bottom: 10%;
 }
 
+.bottom-\[100px\] {
+  bottom: 100px;
+}
+
+.bottom-\[80px\] {
+  bottom: 80px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1207,6 +1215,11 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.rotate-\[180deg\] {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
@@ -1333,20 +1346,12 @@ html {
   background-color: rgb(188 233 9 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
-}
-
 .bg-footer-back {
   background-image: url('./images/footer_bg.png');
 }
 
 .bg-contain {
   background-size: contain;
-}
-
-.bg-right-bottom {
-  background-position: right bottom;
 }
 
 .bg-footer-position {
@@ -2313,10 +2318,6 @@ html {
     margin-bottom: 0px;
   }
 
-  .xl\:block {
-    display: block;
-  }
-
   .xl\:flex {
     display: flex;
   }
@@ -2377,12 +2378,44 @@ html {
     flex-direction: row;
   }
 
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+
+  .xl\:items-center {
+    align-items: center;
+  }
+
   .xl\:gap-\[55px\] {
     gap: 55px;
   }
 
   .xl\:gap-\[120px\] {
     gap: 120px;
+  }
+
+  .xl\:gap-\[32px\] {
+    gap: 32px;
+  }
+
+  .xl\:gap-\[px\] {
+    gap: px;
+  }
+
+  .xl\:gap-\[64px\] {
+    gap: 64px;
+  }
+
+  .xl\:gap-\[\] {
+    gap: ;
+  }
+
+  .xl\:gap-\[4r\] {
+    gap: 4r;
+  }
+
+  .xl\:gap-\[4rem\] {
+    gap: 4rem;
   }
 
   .xl\:whitespace-nowrap {
@@ -2537,6 +2570,10 @@ html {
 
   .ms\:gap-\[37px\] {
     gap: 37px;
+  }
+
+  .ms\:bg-none {
+    background-image: none;
   }
 
   .ms\:px-6 {
@@ -2731,6 +2768,10 @@ html {
 
   .xsm\:rounded-\[4px\] {
     border-radius: 4px;
+  }
+
+  .xsm\:bg-none {
+    background-image: none;
   }
 
   .xsm\:px-2 {
