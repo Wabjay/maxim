@@ -2425,6 +2425,16 @@ img.rotate_globe {
     white-space: nowrap;
   }
 
+  .xl\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .xl\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
