@@ -11,7 +11,7 @@ var i = 1;
 setInterval(function(){
  $(".addLine").toggleClass('line')
  $("#borderless").fadeTo(10 , 0.1).fadeTo(200 , 0.2).fadeTo(200 , 0.3).fadeTo(300 , 0.5).fadeTo(500 , 1).text(bottom[i])
-//  $("#endless").animate({opacity: 0.2}, 300).animate({opacity: 0.5}, 700).animate({opacity: 1}, 1000).text(tops[i])
+ $("#endless").fadeTo(10 , 0.1).fadeTo(200 , 0.2).fadeTo(200 , 0.3).fadeTo(300 , 0.5).fadeTo(500 , 1).text(tops[i])
 //  $("#borderless").animate({opacity: 0.2}, 300).animate({opacity: 0.5}, 700).animate({opacity: 1}, 1000 ).text(bottom[i])
  i = (i+1) % bottom.length;
 },4000)
