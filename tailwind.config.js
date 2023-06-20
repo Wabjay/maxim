@@ -1,3 +1,4 @@
+//jshint esversion:6
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*html"],
@@ -18,11 +19,14 @@ module.exports = {
         'animate-bounce': 'bounce 3s infinite',
       },
       backgroundImage: {
-        'footer-bg': "url('./public/images/footer_bg.png')",
+        'footer-back': "url('./images/footer_bg.png')",
         'telecom-bg': "url('./public/images/Telecom.png')",
         'insurance-bg': "url('./public/images/Insurance.png')",
         'commercial-bg': "url('./public/images/Commercial.png')",
         'financial-bg': "url('./public/images/Financial.png')",
+      },
+      backgroundPosition: {
+        "footer-position": 'bottom -3rem left 10rem'
       },
     },
   },
