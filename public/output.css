@@ -1040,6 +1040,10 @@ html {
   height: auto;
 }
 
+.h-\[56px\] {
+  height: 56px;
+}
+
 .max-h-\[368\.84px\] {
   max-height: 368.84px;
 }
@@ -1790,6 +1794,10 @@ img.rotate_globe {
     max-width: 414px;
   }
 
+  .lg\:max-w-\[1440px\] {
+    max-width: 1440px;
+  }
+
   .lg\:max-w-\[828px\] {
     max-width: 828px;
   }
@@ -1800,14 +1808,6 @@ img.rotate_globe {
 
   .lg\:max-w-\[282px\] {
     max-width: 282px;
-  }
-
-  .lg\:max-w-\[1px\] {
-    max-width: 1px;
-  }
-
-  .lg\:max-w-\[1440px\] {
-    max-width: 1440px;
   }
 
   .lg\:grid-cols-2 {
@@ -2423,6 +2423,10 @@ img.rotate_globe {
   .xsm\:h-fit {
     height: -moz-fit-content;
     height: fit-content;
+  }
+
+  .xsm\:h-\[44px\] {
+    height: 44px;
   }
 
   .xsm\:max-h-\[350px\] {
