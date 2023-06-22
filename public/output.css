@@ -1742,6 +1742,18 @@ img.rotate_globe {
     height: 419.92px;
   }
 
+  .lg\:h-\[485px\] {
+    height: 485px;
+  }
+
+  .lg\:h-\[455px\] {
+    height: 455px;
+  }
+
+  .lg\:max-h-\[485px\] {
+    max-height: 485px;
+  }
+
   .lg\:w-\[62px\] {
     width: 62px;
   }
