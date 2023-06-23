@@ -1241,6 +1241,10 @@ html {
   place-self: center;
 }
 
+.justify-self-center {
+  justify-self: center;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -1719,12 +1723,24 @@ img.rotate_globe {
     grid-column-start: 3;
   }
 
+  .lg\:col-start-1 {
+    grid-column-start: 1;
+  }
+
   .lg\:col-end-4 {
     grid-column-end: 4;
   }
 
+  .lg\:col-end-2 {
+    grid-column-end: 2;
+  }
+
   .lg\:row-start-2 {
     grid-row-start: 2;
+  }
+
+  .lg\:row-start-1 {
+    grid-row-start: 1;
   }
 
   .lg\:my-0 {
@@ -1915,6 +1931,10 @@ img.rotate_globe {
 
   .lg\:gap-\[52px\] {
     gap: 52px;
+  }
+
+  .lg\:gap-y-\[1rem\] {
+    row-gap: 1rem;
   }
 
   .lg\:place-self-center {
@@ -2138,6 +2158,10 @@ img.rotate_globe {
     grid-column-start: 4;
   }
 
+  .xl\:col-start-3 {
+    grid-column-start: 3;
+  }
+
   .xl\:col-end-4 {
     grid-column-end: 4;
   }
@@ -2216,6 +2240,10 @@ img.rotate_globe {
 
   .xl\:max-w-\[350px\] {
     max-width: 350px;
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .xl\:flex-row {
@@ -2302,6 +2330,10 @@ img.rotate_globe {
 
   .xl\:pb-\[35px\] {
     padding-bottom: 35px;
+  }
+
+  .xl\:text-center {
+    text-align: center;
   }
 
   .xl\:text-\[180px\] {
@@ -2418,6 +2450,10 @@ img.rotate_globe {
 
   .ms\:mb-\[22px\] {
     margin-bottom: 22px;
+  }
+
+  .ms\:mb-\[63px\] {
+    margin-bottom: 63px;
   }
 
   .ms\:h-\[35\.81px\] {
