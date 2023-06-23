@@ -1873,6 +1873,10 @@ img.rotate_globe {
     width: 100%;
   }
 
+  .lg\:w-\[650px\] {
+    width: 650px;
+  }
+
   .lg\:max-w-\[1312px\] {
     max-width: 1312px;
   }
@@ -1999,6 +2003,11 @@ img.rotate_globe {
        object-position: bottom;
   }
 
+  .lg\:object-\[50\%\] {
+    -o-object-position: 50%;
+       object-position: 50%;
+  }
+
   .lg\:p-\[10px\] {
     padding: 10px;
   }
@@ -2098,8 +2107,28 @@ img.rotate_globe {
     padding-bottom: 20px;
   }
 
+  .lg\:pt-\[px\] {
+    padding-top: px;
+  }
+
   .lg\:pt-\[95px\] {
     padding-top: 95px;
+  }
+
+  .lg\:pt-\[10rem\] {
+    padding-top: 10rem;
+  }
+
+  .lg\:pb-\[10rem\] {
+    padding-bottom: 10rem;
+  }
+
+  .lg\:pb-\[266px\] {
+    padding-bottom: 266px;
+  }
+
+  .lg\:pb-\[234px\] {
+    padding-bottom: 234px;
   }
 
   .lg\:text-left {
@@ -2272,6 +2301,10 @@ img.rotate_globe {
     width: 555px;
   }
 
+  .xl\:w-\[722px\] {
+    width: 722px;
+  }
+
   .xl\:max-w-\[412px\] {
     max-width: 412px;
   }
@@ -2337,6 +2370,11 @@ img.rotate_globe {
        object-fit: cover;
   }
 
+  .xl\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
+  }
+
   .xl\:object-\[80\%\] {
     -o-object-position: 80%;
        object-position: 80%;
@@ -2345,6 +2383,11 @@ img.rotate_globe {
   .xl\:object-\[20\%\] {
     -o-object-position: 20%;
        object-position: 20%;
+  }
+
+  .xl\:object-\[50\%\] {
+    -o-object-position: 50%;
+       object-position: 50%;
   }
 
   .xl\:px-\[80px\] {
@@ -2384,6 +2427,10 @@ img.rotate_globe {
 
   .xl\:pt-\[142px\] {
     padding-top: 142px;
+  }
+
+  .xl\:pb-\[266px\] {
+    padding-bottom: 266px;
   }
 
   .xl\:text-center {
