@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "Inter-Light";
+  src: url("../public/font/Inter-Light.ttf");
+};
+
+@font-face {
     font-family: "Inter-Regular";
     src: url("../public/font/Inter-Regular.ttf");
   };

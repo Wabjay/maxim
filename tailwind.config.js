@@ -8,7 +8,8 @@ module.exports = {
         "Inter-700": ["Inter-Bold", 'sans-serif'],
         "Inter-600": ["Inter-SemiBold", 'sans-serif'],
         "Inter-500": ["Inter-Medium", 'sans-serif'],
-        "Inter-400": ["Inter-Regular", 'sans-serif']
+        "Inter-400": ["Inter-Regular", 'sans-serif'],
+        "Inter-300": ["Inter-Regular", 'sans-serif'],
       },
       screens: {
         'xxl': {'min': '1441px'},
