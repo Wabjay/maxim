@@ -11,15 +11,18 @@ module.exports = {
         "Inter-400": ["Inter-Regular", 'sans-serif']
       },
       screens: {
-        'xxl': {'min': '1440px'},
+        'xxl': {'min': '1441px'},
         "ms": {'min': '576px', 'max': '1023px'},
         "xsm": {'max': '566px'},
         "xxsm": {'max': '320px'}
 
       },
       animation: {
-        'animate-bounce': 'bounce 3s infinite',
-        'button-bounce': 'bounce 5s infinite',
+        'bounce': 'bounce 5s linear infinite',
+        'pulse': 'pulse 5s cubic-bezier(0.4,0,0.6,1) infinite',
+        'spin': 'spin 5s linear infinite',
+        'globe': 'globe 5s  linear infinite',
+        'button': 'button 3s  linear infinite',
       },
       backgroundImage: {
         'footer-back': "url('./images/Maxim-mark.svg')",
@@ -30,10 +33,13 @@ module.exports = {
         "footer-xtra": "bottom -38rem left 7rem",
       },
       keyframes:{
-        'slow-bounce': {
-          '0%, 100%':{transform: 'translateY(-25%) animation-timing-function: cubic-bezier(0.8,0,1,1)'},
-          '50%':{transform: 'translateY(0) animation-timing-function: cubic-bezier(0.8,0,1,1)'}
-
+        'globe': {
+          '0%, 100%':{transform: 'TranslateY(-25%)', 'animation-timing-function': 'cubic-bezier(2,2,2,2)'},
+          '50%':{transform: 'TranslateY(0)', 'animation-timing-function': 'cubic-bezier(2,2,2,2)'},
+        },
+        'button': {
+          '0%, 100%':{transform: 'TranslateY(-55%)', 'animation-timing-function': 'cubic-bezier(0.9,0.7,0.7,0.9)'},
+          '50%':{transform: 'TranslateY(0)', 'animation-timing-function': 'cubic-bezier(0.9,0.7.0.7,0.9)'},
         }
       }
     },

@@ -1143,20 +1143,46 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-@keyframes bounce {
+@keyframes button {
   0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
+    transform: TranslateY(-55%);
+    animation-timing-function: cubic-bezier(0.9,0.7,0.7,0.9);
   }
 
   50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
+    transform: TranslateY(0);
+    animation-timing-function: cubic-bezier(0.9,0.7.0.7,0.9);
   }
 }
 
-.animate-\[bounce_4s_infinite\] {
-  animation: bounce 4s infinite;
+.animate-button {
+  animation: button 3s  linear infinite;
+}
+
+@keyframes globe {
+  0%, 100% {
+    transform: TranslateY(-25%);
+    animation-timing-function: cubic-bezier(2,2,2,2);
+  }
+
+  50% {
+    transform: TranslateY(0);
+    animation-timing-function: cubic-bezier(2,2,2,2);
+  }
+}
+
+.animate-globe {
+  animation: globe 5s  linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 5s linear infinite;
 }
 
 @keyframes bounce {
@@ -1173,22 +1199,6 @@ html {
 
 .animate-\[bounce_3s_infinite\] {
   animation: bounce 3s infinite;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-\[bounce_2s_infinite\] {
-  animation: bounce 2s infinite;
 }
 
 .flex-col {
@@ -1530,8 +1540,8 @@ html {
   letter-spacing: 0.7px;
 }
 
-.tracking-\[-1px\] {
-  letter-spacing: -1px;
+.tracking-\[-1\.5px\] {
+  letter-spacing: -1.5px;
 }
 
 .text-\[\#FFFFFF\] {
@@ -1851,8 +1861,8 @@ img.rotate_globe {
     max-width: 1215px;
   }
 
-  .lg\:max-w-\[561px\] {
-    max-width: 561px;
+  .lg\:max-w-\[520px\] {
+    max-width: 520px;
   }
 
   .lg\:max-w-\[414px\] {
@@ -1926,6 +1936,31 @@ img.rotate_globe {
   .lg\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .lg\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .lg\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
+  }
+
+  .lg\:object-\[60\%\] {
+    -o-object-position: 60%;
+       object-position: 60%;
+  }
+
+  .lg\:object-top {
+    -o-object-position: top;
+       object-position: top;
+  }
+
+  .lg\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
 
   .lg\:p-\[10px\] {
@@ -2179,6 +2214,10 @@ img.rotate_globe {
     max-width: 487px;
   }
 
+  .xl\:max-w-\[350px\] {
+    max-width: 350px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -2191,6 +2230,10 @@ img.rotate_globe {
     align-items: center;
   }
 
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
   .xl\:gap-\[55px\] {
     gap: 55px;
   }
@@ -2199,8 +2242,16 @@ img.rotate_globe {
     gap: 120px;
   }
 
+  .xl\:gap-2 {
+    gap: 0.5rem;
+  }
+
   .xl\:gap-\[4rem\] {
     gap: 4rem;
+  }
+
+  .xl\:whitespace-normal {
+    white-space: normal;
   }
 
   .xl\:whitespace-nowrap {
@@ -2216,6 +2267,16 @@ img.rotate_globe {
        object-fit: cover;
   }
 
+  .xl\:object-\[80\%\] {
+    -o-object-position: 80%;
+       object-position: 80%;
+  }
+
+  .xl\:object-\[20\%\] {
+    -o-object-position: 20%;
+       object-position: 20%;
+  }
+
   .xl\:px-\[80px\] {
     padding-left: 80px;
     padding-right: 80px;
@@ -2229,6 +2290,10 @@ img.rotate_globe {
   .xl\:py-\[150px\] {
     padding-top: 150px;
     padding-bottom: 150px;
+  }
+
+  .xl\:pb-\[53px\] {
+    padding-bottom: 53px;
   }
 
   .xl\:pt-\[85px\] {
@@ -2300,7 +2365,7 @@ img.rotate_globe {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
   .xxl\:bg-footer-xtra {
     background-position: bottom -38rem left 7rem;
   }
