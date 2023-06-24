@@ -22,3 +22,5 @@ setInterval(function(){
  $("#country").attr('src', `./public/images/${countries[count]}.png`).fadeIn(100)
  count= (count+1) % countries.length;
 },1000)
+
+$("#date").text(Date().getFullYear())

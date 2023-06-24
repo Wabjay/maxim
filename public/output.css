@@ -967,8 +967,8 @@ html {
   margin-top: 1.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-\[46px\] {
@@ -981,10 +981,6 @@ html {
 
 .mt-\[65px\] {
   margin-top: 65px;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .box-border {
@@ -1036,16 +1032,8 @@ html {
   height: 21.33px;
 }
 
-.h-\[4px\] {
-  height: 4px;
-}
-
 .h-\[22px\] {
   height: 22px;
-}
-
-.h-\[2px\] {
-  height: 2px;
 }
 
 .h-\[56px\] {
@@ -1093,10 +1081,6 @@ html {
   width: 126px;
 }
 
-.w-\[40\%\] {
-  width: 40%;
-}
-
 .w-\[20px\] {
   width: 20px;
 }
@@ -1123,10 +1107,6 @@ html {
 
 .max-w-\[1440px\] {
   max-width: 1440px;
-}
-
-.max-w-\[216px\] {
-  max-width: 216px;
 }
 
 .max-w-\[480px\] {
@@ -1253,10 +1233,6 @@ html {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-\[2px\] {
   border-width: 2px;
 }
@@ -1357,6 +1333,16 @@ html {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-\[14px\] {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pt-\[81px\] {
@@ -1522,14 +1508,6 @@ html {
 
 .tracking-\[1\.4px\] {
   letter-spacing: 1.4px;
-}
-
-.tracking-\[0\.7px\] {
-  letter-spacing: 0.7px;
-}
-
-.tracking-\[0\.5px\] {
-  letter-spacing: 0.5px;
 }
 
 .tracking-\[1px\] {
@@ -1785,10 +1763,6 @@ img.rotate_globe {
     margin-top: 55px;
   }
 
-  .lg\:mt-\[68px\] {
-    margin-top: 68px;
-  }
-
   .lg\:mb-\[86px\] {
     margin-bottom: 86px;
   }
@@ -1829,10 +1803,6 @@ img.rotate_globe {
     height: 386px;
   }
 
-  .lg\:h-\[4px\] {
-    height: 4px;
-  }
-
   .lg\:max-h-\[310\.84px\] {
     max-height: 310.84px;
   }
@@ -1845,8 +1815,8 @@ img.rotate_globe {
     width: 80%;
   }
 
-  .lg\:w-\[598px\] {
-    width: 598px;
+  .lg\:w-\[650px\] {
+    width: 650px;
   }
 
   .lg\:w-\[77\.39px\] {
@@ -1871,10 +1841,6 @@ img.rotate_globe {
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:w-\[650px\] {
-    width: 650px;
   }
 
   .lg\:max-w-\[1312px\] {
@@ -1949,20 +1915,12 @@ img.rotate_globe {
     gap: 52px;
   }
 
-  .lg\:gap-y-\[1rem\] {
-    row-gap: 1rem;
-  }
-
   .lg\:gap-y-\[2rem\] {
     row-gap: 2rem;
   }
 
   .lg\:place-self-center {
     place-self: center;
-  }
-
-  .lg\:whitespace-nowrap {
-    white-space: nowrap;
   }
 
   .lg\:border-2 {
@@ -1983,29 +1941,14 @@ img.rotate_globe {
        object-fit: cover;
   }
 
-  .lg\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
-  }
-
   .lg\:object-top {
     -o-object-position: top;
        object-position: top;
   }
 
-  .lg\:object-\[60\%\] {
-    -o-object-position: 60%;
-       object-position: 60%;
-  }
-
   .lg\:object-bottom {
     -o-object-position: bottom;
        object-position: bottom;
-  }
-
-  .lg\:object-\[50\%\] {
-    -o-object-position: 50%;
-       object-position: 50%;
   }
 
   .lg\:p-\[10px\] {
@@ -2041,19 +1984,9 @@ img.rotate_globe {
     padding-right: 60px;
   }
 
-  .lg\:py-\[10rem\] {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-
-  .lg\:py-\[120px\] {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-
-  .lg\:py-\[100px\] {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  .lg\:py-\[115px\] {
+    padding-top: 115px;
+    padding-bottom: 115px;
   }
 
   .lg\:px-\[64px\] {
@@ -2064,11 +1997,6 @@ img.rotate_globe {
   .lg\:px-\[14px\] {
     padding-left: 14px;
     padding-right: 14px;
-  }
-
-  .lg\:py-\[115px\] {
-    padding-top: 115px;
-    padding-bottom: 115px;
   }
 
   .lg\:pt-8 {
@@ -2087,8 +2015,16 @@ img.rotate_globe {
     padding-bottom: 0px;
   }
 
-  .lg\:pt-\[158px\] {
-    padding-top: 158px;
+  .lg\:pt-\[100px\] {
+    padding-top: 100px;
+  }
+
+  .lg\:pb-\[234px\] {
+    padding-bottom: 234px;
+  }
+
+  .lg\:pt-\[95px\] {
+    padding-top: 95px;
   }
 
   .lg\:pb-5 {
@@ -2099,36 +2035,8 @@ img.rotate_globe {
     padding-top: 68px;
   }
 
-  .lg\:pt-\[100px\] {
-    padding-top: 100px;
-  }
-
   .lg\:pb-\[20px\] {
     padding-bottom: 20px;
-  }
-
-  .lg\:pt-\[px\] {
-    padding-top: px;
-  }
-
-  .lg\:pt-\[95px\] {
-    padding-top: 95px;
-  }
-
-  .lg\:pt-\[10rem\] {
-    padding-top: 10rem;
-  }
-
-  .lg\:pb-\[10rem\] {
-    padding-bottom: 10rem;
-  }
-
-  .lg\:pb-\[266px\] {
-    padding-bottom: 266px;
-  }
-
-  .lg\:pb-\[234px\] {
-    padding-bottom: 234px;
   }
 
   .lg\:text-left {
@@ -2206,10 +2114,6 @@ img.rotate_globe {
   .lg\:tracking-\[-2\.2px\] {
     letter-spacing: -2.2px;
   }
-
-  .lg\:tracking-\[0\.7px\] {
-    letter-spacing: 0.7px;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -2285,6 +2189,10 @@ img.rotate_globe {
     width: 72px;
   }
 
+  .xl\:w-\[722px\] {
+    width: 722px;
+  }
+
   .xl\:w-\[630px\] {
     width: 630px;
   }
@@ -2299,10 +2207,6 @@ img.rotate_globe {
 
   .xl\:w-\[555px\] {
     width: 555px;
-  }
-
-  .xl\:w-\[722px\] {
-    width: 722px;
   }
 
   .xl\:max-w-\[412px\] {
@@ -2370,24 +2274,19 @@ img.rotate_globe {
        object-fit: cover;
   }
 
-  .xl\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
-  }
-
   .xl\:object-\[80\%\] {
     -o-object-position: 80%;
        object-position: 80%;
   }
 
-  .xl\:object-\[20\%\] {
-    -o-object-position: 20%;
-       object-position: 20%;
-  }
-
   .xl\:object-\[50\%\] {
     -o-object-position: 50%;
        object-position: 50%;
+  }
+
+  .xl\:object-\[20\%\] {
+    -o-object-position: 20%;
+       object-position: 20%;
   }
 
   .xl\:px-\[80px\] {
@@ -2409,6 +2308,14 @@ img.rotate_globe {
     padding-top: 156px;
   }
 
+  .xl\:pb-\[266px\] {
+    padding-bottom: 266px;
+  }
+
+  .xl\:pt-\[142px\] {
+    padding-top: 142px;
+  }
+
   .xl\:pb-\[53px\] {
     padding-bottom: 53px;
   }
@@ -2419,18 +2326,6 @@ img.rotate_globe {
 
   .xl\:pb-\[35px\] {
     padding-bottom: 35px;
-  }
-
-  .xl\:pt-\[158px\] {
-    padding-top: 158px;
-  }
-
-  .xl\:pt-\[142px\] {
-    padding-top: 142px;
-  }
-
-  .xl\:pb-\[266px\] {
-    padding-bottom: 266px;
   }
 
   .xl\:text-center {
@@ -2491,14 +2386,6 @@ img.rotate_globe {
 
   .xl\:tracking-\[-2\.7px\] {
     letter-spacing: -2.7px;
-  }
-
-  .xl\:tracking-\[0\.8px\] {
-    letter-spacing: 0.8px;
-  }
-
-  .xl\:tracking-\[1px\] {
-    letter-spacing: 1px;
   }
 }
 
@@ -2565,21 +2452,12 @@ img.rotate_globe {
     height: 35.81px;
   }
 
-  .ms\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
   .ms\:h-\[386px\] {
     height: 386px;
   }
 
   .ms\:max-h-\[221\.1px\] {
     max-height: 221.1px;
-  }
-
-  .ms\:max-h-\[650px\] {
-    max-height: 650px;
   }
 
   .ms\:w-\[80\%\] {
@@ -2634,6 +2512,11 @@ img.rotate_globe {
   .ms\:px-\[24px\] {
     padding-left: 24px;
     padding-right: 24px;
+  }
+
+  .ms\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .ms\:pb-\[45px\] {
@@ -2731,14 +2614,6 @@ img.rotate_globe {
   .ms\:tracking-\[1\.6px\] {
     letter-spacing: 1.6px;
   }
-
-  .ms\:tracking-\[1px\] {
-    letter-spacing: 1px;
-  }
-
-  .ms\:tracking-\[0\.7px\] {
-    letter-spacing: 0.7px;
-  }
 }
 
 @media (max-width: 566px) {
@@ -2818,21 +2693,12 @@ img.rotate_globe {
     height: 28px;
   }
 
-  .xsm\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
   .xsm\:h-\[350px\] {
     height: 350px;
   }
 
   .xsm\:h-\[44px\] {
     height: 44px;
-  }
-
-  .xsm\:max-h-\[350px\] {
-    max-height: 350px;
   }
 
   .xsm\:w-\[320px\] {
