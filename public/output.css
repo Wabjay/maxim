@@ -1113,6 +1113,22 @@ html {
   max-width: 480px;
 }
 
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[300\] {
+  max-width: 300;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
+.max-w-\[280px\] {
+  max-width: 280px;
+}
+
 .translate-x-\[-50\%\] {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1952,6 +1968,18 @@ img.rotate_globe {
     max-width: 282px;
   }
 
+  .lg\:max-w-\[660px\] {
+    max-width: 660px;
+  }
+
+  .lg\:max-w-\[640px\] {
+    max-width: 640px;
+  }
+
+  .lg\:max-w-\[620px\] {
+    max-width: 620px;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2575,6 +2603,10 @@ img.rotate_globe {
 
   .ms\:max-w-\[506px\] {
     max-width: 506px;
+  }
+
+  .ms\:max-w-\[440px\] {
+    max-width: 440px;
   }
 
   .ms\:gap-\[37px\] {
