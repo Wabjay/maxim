@@ -280,6 +280,13 @@
                 </form>
                 </div>
             </div>
+            <!-- Waitlist popup -->
+            <div id="waitlist_popup" class="">
+                <div class="waitlist_popup">
+                    <p id="waitlist_text">Your details has been added to our waitlist.</p>
+                </div>
+            </div>
+            <!-- Waitlist popup -->
 
             <div
                 class="text-center lg:text-left xl:text-center lg:grid lg:grid-cols-2 xl:grid-cols-4 lg:justify-between lg:gap-y-[2rem] xsm:w-[240px] xsm:m-auto xsm:mt-[58px] mt-[65px] lg:mt-[110px]  xl:mt-[140px] relative">
@@ -313,48 +320,7 @@
     <script src="./public/script.js"></script>
 
     <script>
-        // const axios = require('axios');
-        const form = document.querySelector("form");
-
-        // Prevent form submission on button click
-        document.getElementById("submit").addEventListener("click", function (event) {
-            event.preventDefault();
-
-            const headers_ = {
-                // API KEY IN Bearer
-                'user': "maxim:a4c8a1b12fee3748938896917e1bbaa8-us10",
-                'Content-Type': 'application/json,  text/plain, */*'
-            };
-            const data = {
-                memebers: [
-                    {
-                        "email_address": document.getElementById("email").value,
-                        "status": "subscribed",
-                    }
-                ]
-            }
-            const jsonData = JSON.stringify(data)
-            // POST the data
-            axios.post('https://us10.api.mailchimp.com/3.0/lists/3791ea4980/', jsonData, { headers: headers_ }
-            )
-                .then((resp) => {
-                    console.log("success!")
-                    waitlist_pop.classList.add("show")
-                    if (waitlist_pop.classList.contains("show")) // Check if the popup is shown
-                        setTimeout(() => waitlist_pop.classList.remove("show"), 5500);
-
-                })
-                .catch(function (error) {
-                    console.log(error);
-                })
-
-
-
-
-
-        }
-    )
-
+    waitlist()
     </script>
 
 
