@@ -27,6 +27,8 @@ $("#date").text(Date().getFullYear())
 
 
 function waitlist(){
+
+const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
  
   const waitlist_pop = document.getElementById("waitlist_popup");
   const waitlist_text  = document.getElementById("waitlist_text");
@@ -38,8 +40,16 @@ document.getElementById("submit").addEventListener("click", function (event) {
     'Authorization': 'Bearer keyOpje8r4lQVibqB',
     'Content-Type': 'application/json'
 };
-const Email = document.getElementById("email").value
-if(Email){
+const email = document.getElementById("email").value
+const Email = emailRegex.test(email)
+
+if(!Email){
+
+  waitlist_pop.classList.add("show")
+    waitlist_text.textContent = "Please enter a correct email address"
+    if(waitlist_pop.classList.contains("show")) // Check if the popup is shown
+  setTimeout(() => waitlist_pop.classList.remove("show"), 2500);
+}else{
   // POST the data
   axios.post('https://api.airtable.com/v0/apprrJKWwFeEItsWb/waitlist',
  {
@@ -60,7 +70,7 @@ if(Email){
       .catch(function (error) {
           console.log(error);
       })}
-      else{
+      if(!email){
         waitlist_pop.classList.add("show")
     waitlist_text.textContent = "Please enter your email address"
         if(waitlist_pop.classList.contains("show")) // Check if the popup is shown
