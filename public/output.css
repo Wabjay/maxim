@@ -1567,26 +1567,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.line{
+.line {
   margin-left: -15%;
-}
-
-img.rotate_globe {
-  animation: rotate-animation 10s infinite linear;
-}
-
-@keyframes rotate-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 #waitlist_popup.show {
@@ -1600,24 +1582,24 @@ img.rotate_globe {
 }
 
 @keyframes fadein {
-  0%  {
+  0% {
     opacity: 0;
   }
 
-  10%  {
+  10% {
     opacity: 1;
   }
 
-  90%  {
+  90% {
     opacity: 1;
   }
 
-  100%  {
+  100% {
     opacity: 0;
   }
 }
 
-#waitlist_popup{
+#waitlist_popup {
   display: none;
   position: absolute;
   top: 50px;
@@ -1647,19 +1629,19 @@ img.rotate_globe {
 }
 
 @media (min-width: 576px) {
-  .waitlist_popup p{
+  .waitlist_popup p {
     max-width: 375px;
   }
 }
 
 @media (min-width: 1024px) {
-  .waitlist_popup p{
+  .waitlist_popup p {
     max-width: 593px;
   }
 }
 
 @media (min-width: 1440px) {
-  .waitlist_popup p{
+  .waitlist_popup p {
     max-width: 640px;
   }
 }

@@ -7,103 +7,122 @@
 @font-face {
   font-family: "Inter-Light";
   src: url("../public/font/Inter-Light.ttf");
-};
+}
+
+;
 
 @font-face {
-    font-family: "Inter-Regular";
-    src: url("../public/font/Inter-Regular.ttf");
-  };
-  @font-face {
-    font-family: "Inter-Medium";
-    src: url("../public/font/Inter-Medium.ttf");
-  };
-  @font-face {
-    font-family: "Inter-SemiBold";
-    src: url("../public/font/Inter-SemiBold.ttf");
-  };
-  @font-face {
-    font-family: "Inter-Bold";
-    src: url("../public/font/Inter-Bold.ttf");
-  };
+  font-family: "Inter-Regular";
+  src: url("../public/font/Inter-Regular.ttf");
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
-  .line{
-    margin-left: -15%;
-  }
+;
 
-  img.rotate_globe {
-		animation: rotate-animation 10s infinite linear;
-	}
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../public/font/Inter-Medium.ttf");
+}
 
-  @keyframes rotate-animation {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(180deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+;
 
-  #waitlist_popup.show {
-    display: block;
-    opacity: 1;
-    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 6s; /* Firefox < 16 */
-     -ms-animation: fadein 6s; /* Internet Explorer */
-      -o-animation: fadein 6s; /* Opera < 12.1 */
-         animation: fadein 6s;
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../public/font/Inter-SemiBold.ttf");
+}
+
+;
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../public/font/Inter-Bold.ttf");
+}
+
+;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.line {
+  margin-left: -15%;
+}
+
+
+#waitlist_popup.show {
+  display: block;
+  opacity: 1;
+  -webkit-animation: fadein 6s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 6s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 6s;
+  /* Internet Explorer */
+  -o-animation: fadein 6s;
+  /* Opera < 12.1 */
+  animation: fadein 6s;
 }
 
 @keyframes fadein {
-0%  { opacity: 0; }
-10%  { opacity: 1; }
-90%  { opacity: 1; }
-100%  { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 
-#waitlist_popup{
-   display: none;
-   position: absolute;
-   top: 50px;
-   left: 0;
-   width: 100%;
+#waitlist_popup {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
 }
+
 .waitlist_popup {
-   margin: 0 auto;
-   background-color: #011A27;
-   border: 0.5px solid #BCE909;
-   border-radius: 15px;
-   width: fit-content;
+  margin: 0 auto;
+  background-color: #011A27;
+  border: 0.5px solid #BCE909;
+  border-radius: 15px;
+  width: fit-content;
 }
-   .waitlist_popup p {
-       padding: 16px 24px;
-       color: #fff;
-       font-style: normal;
-       font-weight: 500;
-       font-size: 16px;
-       line-height: 22px;
-       text-align: center;
-       width: 100%;
-       max-width: 280px;
-   }
-   @media (min-width: 576px) {
-    .waitlist_popup p{
-      max-width: 375px;
+
+.waitlist_popup p {
+  padding: 16px 24px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+}
+
+@media (min-width: 576px) {
+  .waitlist_popup p {
+    max-width: 375px;
   }
-   }
-   @media (min-width: 1024px) {
-    .waitlist_popup p{
-      max-width: 593px;
+}
+
+@media (min-width: 1024px) {
+  .waitlist_popup p {
+    max-width: 593px;
   }
-   }
-   @media (min-width: 1440px) {
-    .waitlist_popup p{
-      max-width: 640px;
+}
+
+@media (min-width: 1440px) {
+  .waitlist_popup p {
+    max-width: 640px;
   }
-   }
+}
